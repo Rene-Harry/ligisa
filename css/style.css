@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-div{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.logo-text{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.ligisa-txt{
+    font-family: 'Dancing Script', cursive;
+    color: #431152;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.youth-network-txt{
+    color: whblackite;
+    font-size: 1.2rem;
+}
+
+nav img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.navbar-links
+{
+    width: 60%;
+}
+
+.navbar-links ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover{
+    text-decoration: underline;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #000000;
+    transition: all 0.3s ease;
+  }
+
+.l_page{
+    background-color: rgb(38, 74, 62);
+    color: white;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 150px;
+    padding-bottom: 200px;
+
+}
+
+.container, .background, .health
+,.education, .mentorship-sessions{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+.group-name{
+    font-size: 3.2rem;
+}
+
+.learn-more{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.learn-more:hover{
+    background-color: rgb(145, 135, 135);
+    cursor: pointer;
+    color: white;
+}
+
+.background img{
+
+    display: block;
+    margin: 1.5em auto;
+    max-width: 95%;
+    margin-bottom: 50px;
+}
+
+h2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+p{
+    text-align: left;
+    line-height: 1.8rem;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.health-section{
+    background-color: #431152;
+}
+
+.health{
+    color: white;
+}
+
+ul{
+    list-style: number;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    line-height: 2rem;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 750px){
+
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+    
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li{
+        text-align: center;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+}
+
