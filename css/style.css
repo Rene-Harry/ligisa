@@ -107,7 +107,7 @@ nav img{
 }
 
 .container, .background, .health
-,.education, .mentorship-sessions{
+,.education, .mentorship-sessions, .about_container{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;

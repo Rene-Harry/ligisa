@@ -93,6 +93,26 @@ tr:nth-of-type(2n){
     overflow-x: auto;
 }
 
+.about{
+    background-color: #431152;
+    color: white;
+}
+
+.about-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 3px solid #694175;
+    
+}
+
+.about-heading span{
+    margin: auto;
+    font-size: 2.0rem;
+}
+
+
 
 
 
