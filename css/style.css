@@ -218,6 +218,14 @@ ul{
         display: none;
 
     }
+    footer .address{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
 
 }
 
