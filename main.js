@@ -5,6 +5,7 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
 
+
 // About
 
 // Get all the about-heading elements
@@ -27,10 +28,10 @@ aboutHeadings.forEach((heading) => {
       image.src = '../images/up-arrow.png';
       // Show the paragraph with a smooth transition
       paragraph.style.display = 'block';
-      paragraph.style.transition = 'opacity 0.5s ease';
+      paragraph.style.transition = 'opacity 2s ease';
       // Fade in the image with a smooth transition
       image.style.opacity = '0';
-      image.style.transition = 'opacity 0.5s ease';
+      image.style.transition = 'opacity 2s ease';
       setTimeout(() => {
         image.style.opacity = '1';
       }, 0);
@@ -39,10 +40,10 @@ aboutHeadings.forEach((heading) => {
       image.src = '../images/arrow-down.png';
       // Hide the paragraph with a smooth transition
       paragraph.style.display = 'none';
-      paragraph.style.transition = 'opacity 0.5s ease';
+      paragraph.style.transition = 'opacity 2s ease';
       // Fade out the image with a smooth transition
       image.style.opacity = '0';
-      image.style.transition = 'opacity 0.5s ease';
+      image.style.transition = 'opacity 2s ease';
       setTimeout(() => {
         image.style.opacity = '1';
       }, 0);
@@ -50,4 +51,10 @@ aboutHeadings.forEach((heading) => {
   });
 });
 
+var button = document.querySelector('.learn-more');
 
+  // Add a click event listener to the button
+  button.addEventListener('click', function() {
+    // Navigate to the about.html file
+    window.location.href = 'about.html';
+  });

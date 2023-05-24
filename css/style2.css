@@ -1,3 +1,5 @@
+
+/* MENTORSHIP */
 .mentorship{
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +28,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .brainstorm{
@@ -46,6 +47,7 @@
     color: #431152;
 }
 
+/* MENTORSHIP TABLE */
 .mentorship-section{
     background-color: #431152;
     color: white;
@@ -93,6 +95,8 @@ tr:nth-of-type(2n){
     overflow-x: auto;
 }
 
+
+/* ABOUT.HTML STYLING */
 .about{
     background-color: #431152;
     color: white;
@@ -109,9 +113,41 @@ tr:nth-of-type(2n){
 
 .about-heading span{
     margin: auto;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
 }
 
+.about-wrapper{
+    background-color: rgb(38, 74, 62);
+    color: white;
+    background-image: url(../images/about-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 200px;
+
+}
+
+.strategic-plan{
+    color: white;
+
+}
+.strategic-plan-parent{
+    background-color: rgb(235, 239, 239);
+}
+
+.border{
+    border: 1px solid black;
+    
+}
+
+.strategic-plan h2{
+    color: black;
+}
+
+.strategic-plan table td {
+  border: 1px solid white;
+  padding: 8px;
+}
 
 
 
